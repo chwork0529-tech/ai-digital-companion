@@ -1,0 +1,235 @@
+:root {
+  --bg-ctn: #cfcdd9;
+  --bg-wrap: #f0eff6;
+  --bg-input: #e8e8e8;
+  --white: #fff;
+  --black: #565367;
+  --grey: #9b99a6;
+  --dark-grey: #222831;
+  --purple: #6a5bc2;
+}
+
+
+img {
+  width: 100%;
+}
+
+.chat-bg {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.container-left, .container-right {
+  flex: 1; /* 让两个面板各占一半宽度 */
+  overflow-y: auto; /* 加入滚动条 */
+}
+
+.container-left {
+  position: relative; /* 定義一個相對定位的容器 */
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-left img, .container-left video {
+  height: 100vh;
+  width: auto;
+}
+
+.container-right {
+  width: 100%;
+  height: 80vh;
+  /* background: var(--bg-ctn); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  /* border: solid 2px black; */
+  width: 90%;
+  height: 65rem;
+  height: 80vh;
+  background: var(--bg-wrap);
+  border-radius: 5rem;
+  padding: 0px 40px 24px 40px;
+}
+
+/* Topbar Section */
+
+.topbar-left {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.topbar-left,
+.topbar-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.topbar-right span {
+  font-size: 1.8rem;
+}
+
+.topbar-right span:nth-child(2) {
+  font-size: 1.6rem;
+}
+
+/* Header Section */
+
+.header {
+  width: 100%;
+  height: 4rem;
+  /* background: green; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header p {
+  padding-top: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--grey);
+}
+
+.header span {
+  font-size: 1.6rem;
+}
+
+/* Chat Page Section */
+
+.chat-page {
+  height: 55vh;
+  overflow-y: scroll;
+}
+
+.chat-page::-webkit-scrollbar {
+  display: none;
+}
+
+/* User 1 */
+
+.user-img {
+  display: block;
+  width: 40px;
+  float: left;
+}
+
+.user-img img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.user-msg {
+  display: inline-block;
+  padding: 0 0 0 1rem;
+  width: 82%;
+}
+
+.user-msg p {
+  max-width: 100%;
+  background: var(--white);
+  border-radius: 0 1.4rem 1.4rem 1.4rem;
+  font-size: 12px;
+  /* font-weight: 500; */
+  padding: 1rem;
+  word-wrap: break-word;
+  display: inline-block; /* 这将使元素的宽度根据内容调整 */
+}
+
+.user-msg .time {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--grey);
+  margin: 0.5rem 1.2rem;
+}
+
+.user2 .user-msg {
+  width: 340px;
+  /* margin-left: 25px; */
+}
+
+/* User 2 */
+.user2 .user-img {
+  float: right;
+}
+
+.user2 .user-msg {
+  text-align: right;
+}
+
+.user2 .user-msg p {
+  color: var(--white);
+  background: var(--purple);
+  border-radius: 1.4rem 0 1.4rem 1.4rem;
+}
+
+.user2 .user-msg .time {
+  display: block; /* 让时间显示在新行 */
+  margin-right: 0; /* 时间靠右 */
+}
+
+/* Chat Input Section */
+.chat-input {
+  width: 100%;
+  height: 4rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-input img {
+  width: 40px;
+  border-radius: 50%;
+  /* cursor: pointer; */
+}
+
+.chat-input input {
+  font-size: 16px;
+  width: 100%;
+  background: var(--bg-input);
+  border: none;
+  line-height: 2;
+  border-radius: 3rem;
+  margin: 0 1rem;
+  padding: 0 1.6rem;
+}
+
+.chat-input input::placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--grey);
+}
+
+.chat-input label {
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--purple);
+  cursor: pointer;
+}
+
+/* loading動畫 */
+
+#loading {
+  position: absolute;
+}
+
+#loading img {
+  /* border: 2px black solid; */
+  width: 400px;
+  height: auto;
+}
+
+#userImage, #userVideo {
+  width: 400px;
+  height: auto;
+}
