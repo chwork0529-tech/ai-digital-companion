@@ -103,7 +103,7 @@ In the GitHub repository, I mainly present the overall system architecture and A
 https://github.com/user-attachments/assets/1c461775-4665-4878-aa99-456308782ad7
 
 ## Demo 2
-- Full Final Product Demo: [https://www.youtube.com/watch?v=E50fvGdV2mo]
+Full Final Product Demo: [https://www.youtube.com/watch?v=E50fvGdV2mo]
 
 ## Note
 The YouTube demo shows the complete final product.
