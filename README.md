@@ -74,28 +74,25 @@ Frontend (PHP + JS)
 
 ---
 
-# Important Notes
-# External animation model is not included
-# Model weights are omitted to keep repository lightweight
-# Author
+Important Notes
+External animation model is not included
+Model weights are omitted to keep repository lightweight
 
-# This project was developed as a team project.
+This project was developed as a team project.
+My role involved backend development and system integration.
+My contributions include:
 
-# My role involved backend development and system integration.
-
-# My contributions include:
-
-# Assisting in backend API development (text, audio, video)
-# Integrating GPT API, TTS, and animation APIs
-# Handling data flow between frontend, backend, and APIs
-# Supporting authentication (login, register, session)
-# Participating in testing and debugging
-# Technologies Used
-# PHP, MySQL
-# JavaScript
-# Flask (Python)
-# OpenAI API
-# gTTS
+Assisting in backend API development (text, audio, video)
+Integrating GPT API, TTS, and animation APIs
+Handling data flow between frontend, backend, and APIs
+Supporting authentication (login, register, session)
+Participating in testing and debugging
+Technologies Used
+PHP, MySQL
+JavaScript
+Flask (Python)
+OpenAI API
+gTTS
 
 ### Demo
 https://github.com/your-repo/assets/xxxx
