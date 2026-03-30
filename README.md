@@ -74,31 +74,6 @@ Frontend (PHP + JS)
 
 ---
 
-## Installation
-
-### 1. Install dependencies
-
-```bash
-pip install -r requirements.txt
-
-### Set API Key
-set OPENAI_API_KEY=your_api_key
-
-### Run API
-python api/gpt_api.py
-python api/audio_api.py
-python api/video_api.py
-
-### Setup Database
-# Create database:
-digital_twin
-
-# Edit:
-backend/db.php
-
-### Run System
-http://localhost/frontend/login_page.php
-
 # Important Notes
 # External animation model is not included
 # Model weights are omitted to keep repository lightweight
