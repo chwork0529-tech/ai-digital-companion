@@ -95,7 +95,10 @@ OpenAI API
 gTTS
 
 ### Demo
+This demo video demonstrates the final output of the system.
+The system converts user input into speech and combines it with a character image and an animation model to generate a dynamic video (result.mp4).
 
+In the GitHub repository, I mainly present the overall system architecture and API integration. The actual video generation relies on deep learning models and checkpoints, which are not included due to their large size.
 
 https://github.com/user-attachments/assets/1c461775-4665-4878-aa99-456308782ad7
 
