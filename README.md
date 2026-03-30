@@ -95,4 +95,13 @@ OpenAI API
 gTTS
 
 ### Demo
-https://github.com/your-repo/assets/xxxx
+
+
+https://github.com/user-attachments/assets/1c461775-4665-4878-aa99-456308782ad7
+
+## Demo 2
+- Full Final Product Demo: [https://www.youtube.com/watch?v=E50fvGdV2mo]
+
+## Note
+The YouTube demo shows the complete final product.
+This GitHub repository includes only part of the project implementation and is intended to showcase selected technical components and my contributions.
